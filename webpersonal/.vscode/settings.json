@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
     "python.pythonPath": "J:\\Archivos de programas\\Miniconda\\envs\\django2\\python.exe"
+=======
+    "python.pythonPath": "C:\\Miniconda\\envs\\django2\\python.exe"
+>>>>>>> 6bb22084c3821e46d2b05e45e3d811c1a65f6070
 }

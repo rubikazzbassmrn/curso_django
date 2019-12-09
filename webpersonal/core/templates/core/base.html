@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <!--BLoque de titulo-->
     <title>{% block title %} {% endblock %} | Mi web personal</title>
+=======
+    <title>Mi web personal</title>
+>>>>>>> 6bb22084c3821e46d2b05e45e3d811c1a65f6070
 </head>
 <body>
     <!--Cabecera y menú-->
     <h1>Mi web personal</h1>
     <ul>
+<<<<<<< HEAD
         <li><a href="{% url 'home' %}">Portada</a></li>
         <li><a href="{% url 'about' %}">Acerca de</a></li>
         <li><a href="{% url 'portfolio' %}">Portafolio</a></li>
         <li><a href="{% url 'contact' %}">Contacto</a></li>
+=======
+        <li><a href="/">Portada</a></li>
+        <li><a href="/about-me">Acerca de</a></li>
+        <li><a href="/portfolio">Portafolio</a></li>
+        <li><a href="/contact">Contacto</a></li>
+>>>>>>> 6bb22084c3821e46d2b05e45e3d811c1a65f6070
     </ul>
     <!--Contenido-->
     {% block content %}
