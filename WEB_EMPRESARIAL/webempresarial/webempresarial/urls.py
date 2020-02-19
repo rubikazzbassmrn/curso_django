@@ -23,7 +23,11 @@ urlpatterns = [
     #Paths de Core
     path('', include('core.urls')),
     #Paths de Services
-    path('', include('services.urls'))
+    path('', include('services.urls')),
+    #Paths de Blog
+    path('blog/', include('blog.urls')),
+    #Paths de Blog
+    path('page/', include('pages.urls'))
 ]
 
 #Comprobar modo DEBUG
