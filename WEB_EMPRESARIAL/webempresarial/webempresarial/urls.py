@@ -27,7 +27,9 @@ urlpatterns = [
     #Paths de Blog
     path('blog/', include('blog.urls')),
     #Paths de Blog
-    path('page/', include('pages.urls'))
+    path('page/', include('pages.urls')),
+    #Paths de Contact
+    path('', include('contact.urls'))
 ]
 
 #Comprobar modo DEBUG
